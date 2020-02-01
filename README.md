@@ -8,6 +8,22 @@ SpoTyping is a software for predicting spoligotype from sequencing reads, comple
 * Python2.7
 * BLAST
 
+#### Setup using Conda
+
+If you have conda then you could simply run the following command to create the environnment named py2.
+```
+conda env create -f environment.yml
+```
+
+This will install the python2, and blast in a conda environment named py2 which can be activated by
+
+```
+conda activate py2
+```
+
+
+
+
 ##### Input:
 1. Fastq file or pair-end fastq files
 2. Fasta file of a complete genomic sequence or assembled contigs of an isolate
